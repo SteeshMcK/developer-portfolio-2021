@@ -1,31 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 :root {
-  --main-background-color: #202020;
-  --main-font-color: #fdf1e9;
+  --main-dark: #202020;
+  --main-headline-light: #fdf1e9;
+  --main-background-light: #fefcfa;
 }
 
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+  background-color: var(--main-background-light);
 }
 
 header {
   font-family: 'Special Elite', cursive;
-  background-color: var(--main-background-color);
-  color: var(--main-font-color);
+  background-color: var(--main-dark);
+  color: var(--main-headline-light);
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
