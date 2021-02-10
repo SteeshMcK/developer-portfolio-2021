@@ -19,7 +19,7 @@ export default function Home() {
           <p>phone: 503-840-9044</p>
         </div>
         <div className='projects'>
-          <Link href='./projects'>
+          <Link href='/projects'>
             <a>Projects</a>
           </Link>
         </div>
