@@ -17,6 +17,9 @@ export default function Home() {
           <p>email: steshamckindle@gmail.com</p>
           <p>phone: 503-840-9044</p>
         </div>
+        <div className='projects'>
+          <p>link to projects</p>
+        </div>
       </main>
     </div>
   )
