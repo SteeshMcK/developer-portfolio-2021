@@ -3,20 +3,16 @@
 :root {
   --main-dark: #202020;
   --main-headline-light: #fdf1e9;
-  --main-background-light: #fefcfa;
+  --main-background-light: #edecec;
+  --main-font-size: 20px;
 }
 
 body {
   background-color: var(--main-background-light);
+  font-size: var(--main-font-size);
 }
 
 header {
-  font-family: 'Special Elite', cursive;
-  background-color: var(--main-dark);
-  color: var(--main-headline-light);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--main-dark);
 }
-
-

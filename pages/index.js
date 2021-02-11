@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,18 +9,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className='headshot'>
-          <Image src='/headshot.jpg' width={500} height={500} alt='my headshot' />
-        </div>
-        <div className={ styles.personalInfo }>
-          <p>email: steshamckindle@gmail.com</p>
-          <p>phone: 503-840-9044</p>
-        </div>
-        <div className='projects'>
-          <Link href='/projects'>
-            <a>Projects</a>
-          </Link>
-        </div>
+        <h1>All about my awesomeness!</h1>
       </main>
     </div>
   )

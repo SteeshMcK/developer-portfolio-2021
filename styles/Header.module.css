@@ -1,0 +1,30 @@
+.nameDiv {
+    font-family: 'Special Elite', cursive;
+    background-color: var(--main-dark);
+    color: var(--main-headline-light);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.headshot {
+    width: 90%;
+    margin:auto;
+}
+  
+.personalInfo {
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.projectsResume {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.anchors {
+    padding: 0 10px;
+    text-decoration: none;
+    color: var(--main-dark);
+    font-weight: bold;
+}
